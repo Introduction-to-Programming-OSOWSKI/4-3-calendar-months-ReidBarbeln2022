@@ -4,6 +4,6 @@ def calendar(m):
     for i in range (0, len(date)):
         if m == date[i]:
             return i + 1
-    return m + " is not a munth"
+    return m + " is not a month"
 
 print (calendar("march"))
